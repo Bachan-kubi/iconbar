@@ -24,3 +24,26 @@
 .icon-bar a.active{
     background-color: rgb(42, 165, 124);
 }
+/* vertical icon bar */
+.icon-bar-two{
+    margin-top: 25px;
+    width: 5%;
+    background-color: rgb(133, 136, 136);
+    overflow: auto;
+}
+.icon-bar-two a{
+    display: block;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 12px 0;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease;
+    /* width: 20%; */
+}
+.icon-bar-two a:hover{
+    background-color: aqua;
+}
+.icon-bar-two a.active{
+    background-color: rgb(42, 165, 124);
+}
